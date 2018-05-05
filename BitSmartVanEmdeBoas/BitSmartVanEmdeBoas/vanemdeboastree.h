@@ -13,6 +13,7 @@ public:
 	~VanEmdeBoasTree();
 	bool Contains(unsigned int);
 	unsigned int Predecessor(unsigned int);
+	unsigned int Successor(unsigned int);
 	void Insert(unsigned int);
 	void Delete(unsigned int);
 };
